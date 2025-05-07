@@ -1,0 +1,11 @@
+src\gaussian.o: ..\ForceRecognition\Gaussian.c
+src\gaussian.o: ..\ForceRecognition\Gaussian.h
+src\gaussian.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+src\gaussian.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+src\gaussian.o: ..\ForceRecognition\rtwtypes.h
+src\gaussian.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+src\gaussian.o: ..\ForceRecognition\SVM_model_stair_types.h
+src\gaussian.o: ..\ForceRecognition\SVM_model_stair.h
+src\gaussian.o: ..\ForceRecognition\rt_nonfinite.h
+src\gaussian.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+src\gaussian.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

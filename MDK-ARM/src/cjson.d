@@ -1,0 +1,9 @@
+src\cjson.o: ..\SEGGER_RTT\cJSON.c
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\float.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+src\cjson.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+src\cjson.o: ..\SEGGER_RTT\cJSON.h

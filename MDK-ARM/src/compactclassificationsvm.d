@@ -1,0 +1,11 @@
+src\compactclassificationsvm.o: ..\ForceRecognition\CompactClassificationSVM.c
+src\compactclassificationsvm.o: ..\ForceRecognition\CompactClassificationSVM.h
+src\compactclassificationsvm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+src\compactclassificationsvm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+src\compactclassificationsvm.o: ..\ForceRecognition\rtwtypes.h
+src\compactclassificationsvm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+src\compactclassificationsvm.o: ..\ForceRecognition\SVM_model_stair_types.h
+src\compactclassificationsvm.o: ..\ForceRecognition\SVM_model_stair.h
+src\compactclassificationsvm.o: ..\ForceRecognition\SVM_model_stair_emxutil.h
+src\compactclassificationsvm.o: ..\ForceRecognition\rt_nonfinite.h
+src\compactclassificationsvm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

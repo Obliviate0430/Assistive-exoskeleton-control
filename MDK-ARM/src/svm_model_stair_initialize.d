@@ -1,0 +1,10 @@
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\SVM_model_stair_initialize.c
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\SVM_model_stair_initialize.h
+src\svm_model_stair_initialize.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+src\svm_model_stair_initialize.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\rtwtypes.h
+src\svm_model_stair_initialize.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\SVM_model_stair_types.h
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\SVM_model_stair.h
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\SVM_model_stair_data.h
+src\svm_model_stair_initialize.o: ..\ForceRecognition2\rt_nonfinite.h

@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: quan a, HP Inc., LIC=LJWGK-Z83YB-F0EN5-GEZQ2-NG09V-RY715
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.35.0.2
+Toolchain Path:  D:\keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\Desk\STM32\2025.2.28\No.1.1_5\MDK-ARM\src.uvprojx
+Project File Date:  12/04/2024
+
+<h2>Output:</h2>
+  
+Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
+         *** Running with Code Size Limit: 32K                   ***
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil_v5\ARM\ARMCC\Bin'
+Build target 'src'
+compiling skeleton.c...
+..\SEGGER_RTT\motor_can.h(88): warning:  #1295-D: Deprecated declaration Motor_Enable - give arg types
+  extern void Motor_Enable();
+..\SEGGER_RTT\motor_can.h(89): warning:  #1295-D: Deprecated declaration Motor_Disable - give arg types
+  extern void Motor_Disable();
+..\SEGGER_RTT\Pwm_output.h(7): warning:  #1295-D: Deprecated declaration LED_OFF - give arg types
+  extern void LED_OFF();//turn off all LED
+..\SEGGER_RTT\Pwm_output.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SEGGER_RTT\skeleton.c(76): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&LeftForce, &TimerLeft);
+..\SEGGER_RTT\skeleton.c(84): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&RightForce, &TimerRight);
+..\SEGGER_RTT\skeleton.c(95): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&LeftForce, &TimerLeft);
+..\SEGGER_RTT\skeleton.c(104): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&RightForce, &TimerRight);
+..\SEGGER_RTT\skeleton.c(129): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&RightForce, &TimerRight);
+..\SEGGER_RTT\skeleton.c(137): warning:  #223-D: function "MotorPositionGernerate" declared implicitly
+  			MotorPositionGernerate(&LeftForce, &TimerLeft);
+..\SEGGER_RTT\skeleton.c(393): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		TimerLeft.Phase = ((float)TimerLeft.Tick / (float)TimerLeft.Cycletime)*100.0;		   // ËÆ°ÁÆóÊ≠•ÊÄÅÁõ∏‰Ω?
+..\SEGGER_RTT\skeleton.c(397): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     	TimerRight.Phase = ((float)TimerRight.Tick / (float)TimerRight.Cycletime)*100.0;	
+..\SEGGER_RTT\skeleton.c(404): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		force_left=(float)skeletonAdDmaBuf[0]*388.29/4095;
+..\SEGGER_RTT\skeleton.c(405): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		CMLEFT1.fdb = (float)force_left/144.0;
+..\SEGGER_RTT\skeleton.c(413): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		force_right = (float)skeletonAdDmaBuf[1]*388.29/4095;
+..\SEGGER_RTT\skeleton.c(415): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		CMRIGHT0.fdb = (float)force_right/144.0;
+..\SEGGER_RTT\skeleton.c(427): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  				motor_Torque(1,-(tighten_force+CMLEFT1.output)*0.4);
+..\SEGGER_RTT\skeleton.c(454): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  				motor_Torque(0,(tighten_force+CMRIGHT0.output)*0.4
+..\SEGGER_RTT\skeleton.c(48): warning:  #550-D: variable "tighten_flag"  was set but never used
+  static int tighten_flag = 0;
+..\SEGGER_RTT\skeleton.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=33906 RO-data=1702 RW-data=1852 ZI-data=36188  
+FromELF: creating hex file...
+"src\src.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.12.0.pack
+                Keil.STM32F4xx_DFP.2.12.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_src
+  D:\Users\32702\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\Users\32702\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

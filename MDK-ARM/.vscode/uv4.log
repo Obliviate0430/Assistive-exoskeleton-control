@@ -1,0 +1,11 @@
+  
+Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
+         *** Running with Code Size Limit: 32K                   ***
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil_v5\ARM\ARMCC\Bin'
+Build target 'src'
+compiling imu_can.c...
+linking...
+Program Size: Code=32746 RO-data=1702 RW-data=1728 ZI-data=36072  
+FromELF: creating hex file...
+"src\src.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:05

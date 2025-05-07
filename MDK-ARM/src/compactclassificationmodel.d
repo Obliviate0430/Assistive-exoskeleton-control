@@ -1,0 +1,9 @@
+src\compactclassificationmodel.o: ..\Tree_10Features\CompactClassificationModel.c
+src\compactclassificationmodel.o: ..\Tree_10Features\CompactClassificationModel.h
+src\compactclassificationmodel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+src\compactclassificationmodel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+src\compactclassificationmodel.o: ..\Tree_10Features\rtwtypes.h
+src\compactclassificationmodel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+src\compactclassificationmodel.o: ..\Tree_10Features\Tree_model_stair_types.h
+src\compactclassificationmodel.o: ..\Tree_10Features\Tree_model_stair.h
+src\compactclassificationmodel.o: ..\Tree_10Features\rt_nonfinite.h
